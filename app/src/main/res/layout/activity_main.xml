@@ -52,10 +52,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="300dp"
         android:text="pracownik"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
