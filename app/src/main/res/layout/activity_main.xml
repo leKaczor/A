@@ -18,9 +18,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
         android:text="uczen"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="187dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="191dp" />
 
     <TextView
         android:id="@+id/textView2"
