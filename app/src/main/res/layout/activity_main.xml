@@ -27,9 +27,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
         android:text="nauczyciel"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="293dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="294dp" />
 
     <Button
         android:id="@+id/button2"
@@ -51,9 +52,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
         android:text="pracownik"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="408dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="419dp" />
 
     <TextView
         android:id="@+id/textView4"
